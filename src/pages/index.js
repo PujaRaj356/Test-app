@@ -1,13 +1,16 @@
 
 
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <div>
       <main>
-      <link href="contact.js">CONTACT</link>
-      <link href="about.js">ABOUT</link>
+        <Link href="/contact">CONTACT</Link>
+        <br />
+        <Link href="/about">ABOUT</Link>
       </main>
-     
     </div>
   );
 }
+
