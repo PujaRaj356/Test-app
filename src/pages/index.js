@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center text-center">
       <main>
-        <h1 color="black">Welcome to the Homepage</h1>
+        <h1 className="text-3xl font-bold mb-6 text-black">Welcome to the Homepage</h1>
         
         <div className="space-x-4">
           <Link href="/contact">
