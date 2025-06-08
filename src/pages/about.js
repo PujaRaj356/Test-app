@@ -1,12 +1,13 @@
+
 export default function About() {
   return (
-    <div style={containerStyle}>
-      <h2>About Us</h2>
-      <p>
-        Welcome to our website. We are dedicated to building smart, efficient, and user-friendly solutions
-        that help communities and cities grow better.
+    <div className="about-container">
+      <h2 className="about-heading">About Us</h2>
+      <p className="about-paragraph">
+        Welcome to our website. We are dedicated to building smart, efficient, and user-friendly
+        solutions that help communities and cities grow better.
       </p>
-      <p>
+      <p className="about-paragraph">
         Our goal is to make services accessible, real-time, and easy to use through technology.
       </p>
       <p>
