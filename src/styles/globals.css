@@ -5,3 +5,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+const containerStyle = {
+  maxWidth: '600px',
+  margin: '60px auto',
+  padding: '20px',
+  fontFamily: 'sans-serif',
+  lineHeight: '1.6',
+  color: '#333'
+};
