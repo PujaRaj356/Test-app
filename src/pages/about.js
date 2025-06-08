@@ -1,17 +1,16 @@
-
 export default function About() {
   return (
-   <div>
-      <h2>About Us</h2>
+    <div>
+      <h1>About TrafficPulse</h1>
       <p>
-        Welcome to our website. We are dedicated to building smart, efficient, and user-friendly
-        solutions that help communities and cities grow better.
+        TrafficPulse is a smart AI-based solution designed to optimize traffic flow in real-time. 
+        Our system monitors vehicle patterns and adapts traffic light timings automatically to reduce congestion and delays.
       </p>
       <p>
-        Our goal is to make services accessible, real-time, and easy to use through technology.
+        With live updates and predictive analytics, TrafficPulse helps city traffic authorities manage routes efficiently and sustainably.
       </p>
       <p>
-        Thank you for visiting our site.
+        Our goal is to create smoother, safer, and smarter roads using intelligent systems and real-time data.
       </p>
     </div>
   );
