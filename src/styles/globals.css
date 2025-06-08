@@ -7,15 +7,5 @@ body {
 }
 
 
-.about-container {
-  @apply max-w-xl mx-auto mt-16 px-4 font-sans text-gray-800;
-}
 
-.about-heading {
-  @apply text-2xl font-semibold mb-4;
-}
-
-.about-paragraph {
-  @apply mb-4;
-}
 
