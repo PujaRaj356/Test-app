@@ -68,11 +68,11 @@ body {
 }
 
 .active-red {
-  background: red;
+  background: rgb(255, 0, 0);
 }
 
 .dim-red {
-  background: #ffc0c0;
+  background: #ded3d3;
 }
 
 .active-yellow {
@@ -80,7 +80,7 @@ body {
 }
 
 .dim-yellow {
-  background: #fffac0;
+  background: #f4f2e1;
 }
 
 .active-green {
@@ -88,7 +88,7 @@ body {
 }
 
 .dim-green {
-  background: #c0ffc0;
+  background: #d3f1d3;
 }
 
 
