@@ -1,10 +1,11 @@
-import traf_simulator from '../components/traf_simulator';
+import CounterSimulator from "../components/CounterSimulator";
 
-export default function Home() {
+export default function Simulator() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mt-10">Welcome to TrafficPulse</h1>
-      <traf-simulator />
+    <div className="page-container">
+      <h1>Traffic Simulator</h1>
+      <p>This page simulates vehicle flow at a junction.</p>
+      <CounterSimulator />
     </div>
   );
 }
