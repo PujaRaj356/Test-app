@@ -8,15 +8,19 @@ export default function Home() {
         <p className="text-gray-700 mb-8">AI-powered traffic optimization for smarter cities.</p>
 
         <div className="space-x-4">
+          <Link href="/simulator">
+            <a className="px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">Traffic Simulator</a>
+          </Link>
+          <Link href="/simulator1">
+            <a className="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition">Congestion Predictor</a>
+          </Link>
           <Link href="/contact">
             <a className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Contact</a>
           </Link>
           <Link href="/about">
             <a className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">About</a>
           </Link>
-          <Link href="/simulator">
-            <a className="px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">Traffic Simulator</a>
-          </Link>
+          
 
 
 
