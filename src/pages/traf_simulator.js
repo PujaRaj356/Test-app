@@ -5,7 +5,7 @@ export default function Simulator() {
     <div className="page-container">
       <h1>Traffic Simulator</h1>
       <p>This page simulates vehicle flow at a junction.</p>
-      <CounterSimulator />
+      <traf_simulator />
     </div>
   );
 }
