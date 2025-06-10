@@ -27,7 +27,9 @@ body {
 }
 
 .simulator-page {
-   background: linear-gradient(135deg, #e49cc1 0%, #aadfe6 100%);
+   
+  background-image: linear-gradient(rgb(240, 163, 203), rgb(183, 221, 239), rgb(186, 153, 220));
+
  
   min-height: 100vh;
   padding: 30px 0;
