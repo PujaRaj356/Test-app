@@ -91,6 +91,28 @@ body {
   background: #d3f1d3;
 }
 
+.bar {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  text-align: center;
+}
+
+.bar.low {
+  background: #28a745;
+}
+
+.bar.medium {
+  background: #ffc107;
+  color: black;
+}
+
+.bar.high {
+  background: #dc3545;
+}
 
 
 
