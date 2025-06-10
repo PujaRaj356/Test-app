@@ -1,4 +1,4 @@
-// pages/congession.js
+
 import CongestionPredictor from '../components/CongestionPredictor';
 
 export default function CongessionPage() {
