@@ -28,7 +28,7 @@ body {
 
 .simulator-page {
    
-  background: linear-gradient(rgb(240, 163, 203), rgb(183, 221, 239), rgb(186, 153, 220));
+  background: linear-gradient(to right,rgb(240, 163, 203), rgb(183, 221, 239), rgb(186, 153, 220));
 
 }
 
