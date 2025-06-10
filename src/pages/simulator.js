@@ -1,17 +1,14 @@
-import CounterSimulator from '../components/CounterSimulator';
+import CongestionPredictor from '../components/CongestionPredictor';
 
-export default function Simulator() {
+export default function SimulatorPage() {
   return (
-    <div className="simulator-page">
-      <div className="page-container">
-        <h1>Traffic Light Simulator</h1>
-        <p>This component simulates a real-world traffic light cycle.</p>
-        <CounterSimulator />
-      </div>
+    <div className="page-container" style={{ backgroundColor: "#eef4fa", minHeight: "100vh" }}>
+      <h1>🚦 Traffic Light Simulator</h1>
+      <p>This component simulates a real-world traffic light cycle.</p>
+
+      
+
+      <CongestionPredictor />
     </div>
   );
 }
-
-
-
-
