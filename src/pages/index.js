@@ -14,7 +14,7 @@ export default function Home() {
           <Link href="/about">
             <a className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">About</a>
           </Link>
-          <Link href="/tra_simulator">
+          <Link href="/traf_simulator">
             <a className="px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">Traffic Simulator</a>
           </Link>
 
