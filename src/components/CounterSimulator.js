@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export default function traf_simulator() {
+export default function CounterSimulator() {
   const [count, setCount] = useState(0);
   const [message, setMessage] = useState("Traffic is smooth.");
 
