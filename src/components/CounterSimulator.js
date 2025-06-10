@@ -1,25 +1,28 @@
 import { useState, useEffect } from 'react';
 
 export default function CounterSimulator() {
-  const [count, setCount] = useState(0);
-  const [message, setMessage] = useState("Traffic is smooth.");
+  const [light, setLight] = useState('red');
 
   useEffect(() => {
-    if (count > 20) setMessage("Heavy congestion!");
-    else if (count > 10) setMessage("Moderate traffic.");
-    else if (count < 0) setMessage("Invalid count!");
-    else setMessage("Traffic is smooth.");
-  }, [count]);
+    const timer = setInterval(() => {
+      setLight((prev) => {
+        if (prev === 'red') return 'green';
+        if (prev === 'green') return 'yellow';
+        return 'red';
+      });
+    }, 3000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <div className="simulator-box">
-      <h2>Traffic Flow Simulator</h2>
-      <p>Vehicles Detected: {count}</p>
-      <div className="btn-group">
-        <button onClick={() => setCount(count + 1)}>Increase</button>
-        <button onClick={() => setCount(count - 1)}>Decrease</button>
+      <h2>🚦 Live Traffic Signal</h2>
+      <div className="traffic-light-box">
+        <div className={`circle ${light === 'red' ? 'active-red' : 'dim-red'}`}></div>
+        <div className={`circle ${light === 'yellow' ? 'active-yellow' : 'dim-yellow'}`}></div>
+        <div className={`circle ${light === 'green' ? 'active-green' : 'dim-green'}`}></div>
       </div>
-      <p>{message}</p>
     </div>
   );
 }
