@@ -7,26 +7,26 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-blue-800 mb-6">🚦 Welcome to TrafficPulse</h1>
         <p className="text-gray-700 mb-8">AI-powered traffic optimization for smarter cities.</p>
 
-        <div className="space-x-4">
+        <div className="space-x-4 space-y-2 sm:space-y-0 sm:space-x-4 flex flex-wrap justify-center">
           <Link href="/simulator">
             <a className="px-6 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600 transition">Traffic Simulator</a>
           </Link>
-         <Link href="/congestion">
-  <a className="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition">
-    Congestion Predictor
-  </a>
-</Link>
-
+          
+          <Link href="/congestion">
+            <a className="px-6 py-2 bg-purple-500 text-white rounded hover:bg-purple-600 transition">Congestion Predictor</a>
+          </Link>
+          
           <Link href="/contact">
             <a className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Contact</a>
           </Link>
+          
           <Link href="/about">
             <a className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">About</a>
           </Link>
-          
 
-
-
+          <Link href="/query">
+            <a className="px-6 py-2 bg-pink-500 text-white rounded hover:bg-pink-600 transition">Ask a Question</a>
+          </Link>
         </div>
       </div>
     </div>
