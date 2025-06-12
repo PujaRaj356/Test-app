@@ -43,7 +43,7 @@ export default function QueryPage() {
       setAnswer(data.answer);
     } catch (err) {
       console.error(err);
-      setError('Something went wrong. Try again.');
+      setError("I'm sorry, I don't understand that. Try asking something else!.");
     } finally {
       setLoading(false);
     }
